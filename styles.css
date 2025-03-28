@@ -1,0 +1,314 @@
+/* 全体のリセット */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: url("https://plus.unsplash.com/premium_photo-1679923913597-2848bb0acf0a?q=80&w=1503&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+    no-repeat center center fixed;
+  background-size: cover;
+  height: auto;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8;
+  background: linear-gradient(to bottom, #f9f9f9, #eaeaea);
+  color: #444;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  background: #005bb5;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+header {
+  background: #ec5628;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+nav ul li {
+  margin-bottom: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #0078d7;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin-top: 20px;
+}
+
+section {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  margin-top: 10px;
+}
+
+form label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+form input,
+form select,
+form button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="number"] {
+  width: 100px;
+}
+
+form button {
+  width: 100px;
+  height: 50px;
+  background-color: #0bbe32;
+  color: #000;
+  font-weight: bold;
+}
+
+form button:hover {
+  background: #005bb5;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+p span {
+  font-weight: bold;
+  color: #0078d7;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #0078d7;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.product {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.product form {
+  display: block;
+  gap: 10px;
+}
+
+.product button {
+  background-color: #0078d7;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background-color: #005bb5;
+}
+
+.site-header {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.highlight-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+.styled-menu {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  background: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.styled-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+}
+
+.styled-item:last-child {
+  border-bottom: none;
+}
+
+.styled-item a {
+  text-decoration: none;
+  color: #005bb5;
+  font-weight: bold;
+  display: block;
+}
+
+.styled-item a:hover {
+  color: #ff7e5f;
+}
+
+.styled-submenu {
+  list-style: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.styled-subitem {
+  padding: 5px 0;
+}
+
+.styled-subitem a {
+  text-decoration: none;
+  color: #0078d7;
+}
+
+.styled-subitem a:hover {
+  text-decoration: underline;
+}
+
+.check_lb {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.check_lb input[type="radio"] {
+  margin-right: 5px;
+  width: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 10px;
+    width: 100%;
+    max-width: none;
+  }
+
+  header,
+  section,
+  footer {
+    padding: 10px;
+  }
+
+  form input,
+  form select,
+  form button {
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  form input[type="number"],
+  form input[type="text"] {
+    width: 100%;
+    font-size: 1rem;
+    padding: 8px;
+  }
+
+  .product form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  fieldset label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  fieldset input[type="radio"] {
+    margin-right: 5px;
+  }
+}
