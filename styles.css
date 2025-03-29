@@ -269,6 +269,12 @@ footer a:hover {
   width: 10px;
 }
 
+button[type="submit"] {
+  color: #000;
+  background-color: #0bbe32;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 768px) {
   body {
     padding: 10px;
